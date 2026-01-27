@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>CodeTools - Calculadora de Projetos</title>
+</head>
+
+<body>
+    <div class="bg-wrapper">
+        <div class="bg-gradient"></div>
+        <div class="bg-lights"></div>
+    </div>
+
+
+    <header>
+        <h1>CodeTools</h1>
+        <nav>
+            <a href="#" id="btn-inicio">
+                <span>Início</span>
+                <div class="border-effect"></div>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Botão na seção hero: -->
+        <section class="hero">
+            <h2>Calcule seu projeto em segundos</h2>
+            <p>Ferramenta gratuita para todos!</p>
+            <a href="#calculadora" class="btn">
+                <div class="btn-content">
+                    <span class="btn-text">Calcular agora</span>
+                    <span class="btn-icon">⚡</span>
+                </div>
+            </a>
+        </section>
+        <!-- SEÇÃO: Descrição do Projeto -->
+        <section class="descricao">
+            <div class="descricao-container">
+                <h3 class="descricao-titulo" data-expand="true">Como funciona a calculadora? <span
+                        class="expand-icon">▼</span></h3>
+
+                <!--CARD 1-->
+                <div class="descricao-grid">
+                    <div class="descricao-item" data-detail="horas">
+                        <div class="descricao-icone">⏱️</div>
+                        <h4 class="descricao-subtitulo">Estimativa de Horas <span class="item-expand">+</span></h4>
+                        <p class="descricao-resumo">Insira quantas horas você estima que o projeto vai levar.</p>
+                        <div class="descricao-detalhe">
+                            <p><strong>Como estimar corretamente:</strong></p>
+                            <ul>
+                                <li>Planejamento e análise: 20% do tempo</li>
+                                <li>Desenvolvimento/codificação: 50% do tempo</li>
+                                <li>Testes e depuração: 20% do tempo</li>
+                                <li>Revisões e ajustes: 10% do tempo</li>
+                            </ul>
+                            <p class="dica-interna">💡 <em>Adicione 15-20% de margem para imprevistos!</em></p>
+                        </div>
+                    </div>
+
+                    <!--CARD 2-->
+                    <div class="descricao-item" data-detail="valor">
+                        <div class="descricao-icone">💰</div>
+                        <h4 class="descricao-subtitulo">Valor por Hora <span class="item-expand">+</span></h4>
+                        <p class="descricao-resumo">Defina seu valor horário baseado na experiência e mercado.</p>
+                        <div class="descricao-detalhe">
+                            <p><strong>Fatores que influenciam o valor:</strong></p>
+                            <ul>
+                                <li>Experiência e portfólio</li>
+                                <li>Complexidade do projeto</li>
+                                <li>Urgência do cliente</li>
+                                <li>Mercado regional/global</li>
+                                <li>Custos operacionais</li>
+                            </ul>
+                            <p><strong>Média de mercado (Brasil):</strong></p>
+                            <ul>
+                                <li>Júnior: R$ 50-80/hora</li>
+                                <li>Pleno: R$ 80-150/hora</li>
+                                <li>Sênior: R$ 150-300/hora</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--CARD 3-->
+                    <div class="descricao-item" data-detail="calculo">
+                        <div class="descricao-icone">🧮</div>
+                        <h4 class="descricao-subtitulo">Cálculo Automático <span class="item-expand">+</span></h4>
+                        <p class="descricao-resumo">Multiplica horas pelo valor por hora com formatação em R$.</p>
+                        <div class="descricao-detalhe">
+                            <p><strong>Fórmula aplicada:</strong></p>
+                            <div class="formula">
+                                <code>Valor Total = Horas × Valor por Hora</code>
+                            </div>
+                            <p><strong>Funcionalidades extras:</strong></p>
+                            <ul>
+                                <li>Formatação automática em Real brasileiro</li>
+                                <li>Cálculo em tempo real (digitação)</li>
+                                <li>Validação de entradas inválidas</li>
+                                <li>Duplo clique no resultado para limpar</li>
+                                <li>Tecla Enter para calcular</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--CARD 4-->
+                    <div class="descricao-item" data-detail="utilidade">
+                        <div class="descricao-icone">🎯</div>
+                        <h4 class="descricao-subtitulo">Para quem é útil? <span class="item-expand">+</span></h4>
+                        <p class="descricao-resumo">Ideal para profissionais que precisam precificar serviços.</p>
+                        <div class="descricao-detalhe">
+                            <p><strong>Perfis que mais utilizam:</strong></p>
+                            <ul>
+                                <li><strong>Freelancers:</strong> Precificação de projetos pontuais</li>
+                                <li><strong>Devs autônomos:</strong> Orçamento para clientes</li>
+                                <li><strong>Designers:</strong> Cálculo de valor de trabalhos criativos</li>
+                                <li><strong>Agências:</strong> Estimativa rápida para propostas</li>
+                                <li><strong>Estudantes:</strong> Prática de precificação profissional</li>
+                            </ul>
+                            <p class="dica-interna">🎯 <em>Use como ponto de partida para negociações!</em></p>
+                        </div>
+                    </div>
+
+                      <!-- CARD 5: SOBRE MIM -->
+                    <div class="descricao-item" data-detail="sobre">
+                        <div class="descricao-icone">👨‍💻</div>
+                        <h4 class="descricao-subtitulo">Quem desenvolveu esta ferramenta?</h4>
+                        <div class="descricao-resumo">
+                            <img src="assets/img/joao.img.jpg" alt="Foto de [Joao Felipe]" class="foto-perfil">
+                            <p>Olá! Sou <strong>[João Felipe]</strong>, desenvolvedor Front-end | Back-end |
+                                javascript/typescript.</p>
+                            <div class="habilidades">
+                                <span class="habilidade-tag">Landing Pages</span>
+                                <span class="habilidade-tag">Animações CSS/GSAP</span>
+                                <span class="habilidade-tag">UI/UX Design</span>
+                                <span class="habilidade-tag">Performance</span>
+                            </div>
+                            <p class="destaque">Meu foco: criar interfaces que não só impressionam visualmente, mas
+                                também geram resultados mensuráveis.</p>
+                        </div>
+                    </div>
+
+                    <!-- CARD 6 -->
+                    <div class="descricao-item" data-detail="ajuda">
+                        <div class="descricao-icone">🚀</div>
+                        <h4 class="descricao-subtitulo">Como posso ajudar seu projeto?</h4>
+                        <div class="descricao-resumo">
+                            <ul class="servicos-lista">
+                                <li>✅ <strong>Landing Pages de alta visibilidade</strong> com foco no objetivo do
+                                    negócio</li>
+                                <li>✅ <strong>Animações sutis</strong> que guiam o usuário sem distrair</li>
+                                <li>✅ <strong>Design responsivo</strong> que funciona perfeitamente em todos os
+                                    dispositivos</li>
+                                <li>✅ <strong>Otimização de performance</strong> para carregamento rápido</li>
+                                <li>✅ <strong>Integração com ferramentas</strong> de marketing e analytics</li>
+                            </ul>
+                            <div class="cta-container">
+                                <p class="cta-texto">Vamos transformar sua ideia em uma ferramenta poderosa?</p>
+                                <button class="btn-contato" onclick="abrirContato()">
+                                    <span class="btn-icon"></span>
+                                    <span class="btn-text">Falar sobre seu projeto</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Exemplo prático e também expansível -->
+                <div class="exemplo-pratico" data-detail="exemplo">
+                    <h4 class="exemplo-titulo">📝 Exemplo Prático: <span class="item-expand">+</span></h4>
+                    <div class="exemplo-conteudo">
+                        <p><strong>Projeto:</strong> Desenvolvimento de um site institucional</p>
+                        <p><strong>Estimativa detalhada:</strong></p>
+                        <ul>
+                            <li>Planejamento: 8 horas</li>
+                            <li>Design UI/UX: 15 horas</li>
+                            <li>Desenvolvimento Frontend: 20 horas</li>
+                            <li>Desenvolvimento Backend: 12 horas</li>
+                            <li>Testes e ajustes: 5 horas</li>
+                            <li><strong>Total:</strong> 60 horas</li>
+                        </ul>
+                        <p><strong>Cálculo:</strong> 60 horas × R$ 120/hora = <strong class="resultado-exemplo">R$
+                                7.200,00</strong></p>
+                        <p class="dica">💡 <em>Dica: Sempre inclua uma margem para imprevistos e revisões!</em></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Nossa seção da calculadora-->
+        <section id="calculadora">
+            <h3>Calculadora de projetos</h3>
+            <label for="horas">Horas necessárias:</label>
+            <input type="number" id="horas" placeholder="Ex: 40">
+            <label for="valor-hora">Valor por hora (R$):</label>
+            <input type="number" id="valor-hora" placeholder="Ex: 150">
+            <button type="button" id="calcular-btn">Calcular</button>
+            <output id="resultado" for="horas valor-hora">0</output>
+        </section>
+    </main>
+
+    <!-- Botões de Redes Sociais Fixos -->
+    <div class="social-fixed">
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-felipe-pinto-rodrigues-09a649341/" class="social-icon linkedin"
+            aria-label="LinkedIn" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/jrodriigues32" class="social-icon github" aria-label="GitHub" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://x.com/jfrodriigues" class="social-icon twitter" aria-label="Twitter/X" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/jrodriigues/" class="social-icon instagram" aria-label="Instagram"
+            target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100075976475022" class="social-icon facebook"
+            aria-label="Facebook" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://wa.me/5551999648754?text=Olá!%20Vim%20pelo%20CodeTools%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto%20digital."
+            class="social-icon whatsapp" aria-label="WhatsApp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
