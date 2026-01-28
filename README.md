@@ -5,6 +5,9 @@
 ## 📋 Sobre meu primeiro Projeto
 Simples calculadora para auxiliar freelancers a precificarem seus projetos de forma justa e transparente. aproveitamos para aplicar alguns conceitos de UI/UX, animações suaves utilizando GSAP e design responsivo que venho aprendendo na minha jornada como programador.
 
+## 📋 Objetivo:
+- O objetivo do projeto não era somente criar uma calculadora básica que só tenha uma função espefíca, o objetivo real era criar uma interação bonita e funcional, aplicando conceitos e funcionalidades que venho aprendendo. 
+
 ## ✨ Funcionalidades que apliquei:
 - **Cálculo básico:** Multiplicação automática de horas trabalhadas × valor por hora
 - **Interface moderna:** Design limpo e intuitivo com foco na usabilidade
