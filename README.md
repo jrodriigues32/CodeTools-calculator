@@ -1,59 +1,49 @@
-CodeTools - Calculadora de Projetos para Freelancers
-Site online: https://jrodriigues32.github.io/CodeTools-calculator/
+# CodeTools - Calculadora de Projetos para Freelancers
 
-📋 Sobre o Projeto
-Esta calculadora nasceu da necessidade prática de auxiliar freelancers a precificarem seus projetos de forma justa e transparente. Mais do que uma simples calculadora, é um projeto que aplica conceitos de UI/UX, animações suaves utilizando GSAP e design responsivo para uma experiência fluida e profissional.
+**Site online:** https://jrodriigues32.github.io/CodeTools-calculator/
 
-✨ Funcionalidades
-Cálculo inteligente: Multiplicação automática de horas trabalhadas × valor por hora
+## 📋 Sobre meu primeiro Projeto
+Simples calculadora para auxiliar freelancers a precificarem seus projetos de forma justa e transparente. aproveitamos para aplicar alguns conceitos de UI/UX, animações suaves utilizando GSAP e design responsivo que venho aprendendo na minha jornada como programador.
 
-Interface moderna: Design limpo e intuitivo com foco na usabilidade
+## ✨ Funcionalidades que apliquei:
+- **Cálculo básico:** Multiplicação automática de horas trabalhadas × valor por hora
+- **Interface moderna:** Design limpo e intuitivo com foco na usabilidade
+- **Animações fluidas:** Transições suaves utilizando GSAP para uma experiência interativa
+- **Totalmente responsivo:** Adapta-se perfeitamente a qualquer dispositivo
+- **Código limpo:** Busquei organizar a estrutura da melhor forma que eu soube fazer, caso veja que posso itomizar mais o código para que tenha um melhor desempenho e entendimento, por favor mande um pull request ❤️
 
-Animações fluidas: Transições suaves utilizando GSAP para uma experiência interativa
+## 🛠️ Tecnologias Utilizadas
+- **HTML5** - Estrutura semântica
+- **CSS3** - Estilização moderna com Flexbox/Grid
+- **JavaScript (ES6+)** - Lógica e interatividade
+- **GSAP** - Para animações
+- **GitHub Pages** - Hospedagem gratuita da página ❤️
 
-Totalmente responsivo
+## 🚀 Como Usar
+1. Acesse o site: https://jrodriigues32.github.io/CodeTools-calculator/
+2. Insira a quantidade de horas trabalhadas
+3. Defina seu valor por hora
+4. Visualize o valor total do projeto
+5. Ajuste os valores conforme necessário
 
-Código limpo: Estrutura organizada para fácil compreensão e manutenção
+## 🎯 Objetivos do Projeto
+- Objetivo do projeto era criar uma interface intuitiva e moderna
+- Implementar alguma função, somente para conter um js básico
+- Adicionar animações fluidas
+- Garantir responsividade total
+- Otimizar performance
 
-🛠️ O que eu usei no projeto:
-HTML5 - Estrutura semântica
+## Estou buscando usando:
+- site MDN para buscas de dúvidas frequentes
+- W3 validator para validação do código
+- AI deepseek para ajuda na correção de algum bug crítico, e foi essencial na ajuda da implementação de GSAP para animações na interface
 
-CSS3 - Estilização moderna com Flexbox/Grid
+## 🤝 Contribuindo
+Fique à vontade para enviar um pull request. Toda contribuição é muito bem-vinda! ❤️
 
-JavaScript (ES6+) - Lógica e interatividade
+## 👤 Autor
+**João Rodrigues**  
+GitHub: [@jrodriigues32](https://github.com/jrodriigues32)  
+Projeto: [CodeTools Calculator](https://jrodriigues32.github.io/CodeTools-calculator/)
 
-GSAP - Para animações
-
-GitHub
-
-🚀 Como Usar
-Acesse o site: https://jrodriigues32.github.io/CodeTools-calculator/
-
-Insira a quantidade de horas trabalhadas
-
-Defina seu valor por hora
-
-Visualize instantaneamente o valor total do projeto
-
-Ajuste os valores conforme necessário
-
-🎯 Objetivos do Projeto
-Criar uma interface intuitiva e moderna
-
-Implementar cálculos em tempo real
-
-Adicionar animações fluidas
-
-Garantir responsividade total
-
-Otimizar performance
-
-🤝 Contribuindo
-Gostaria de caso pudessem me ajudassem com alguma melhoria de otimização do código, ou coisas que nos ajudem a ter uma melhor leitura ou melhor entendimento, ou qualquer coisa do tipo, toda critica é bem-vinda.
-
-👤 Autor
-João Rodrigues
-
-GitHub: @jrodriigues32
-
-Projeto: CodeTools Calculator
+---
